@@ -38,11 +38,11 @@
             </span>
 
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-                Selamat Datang di <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">My Web</span>
+                Selamat Datang di <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">MyShop</span>
             </h1>
 
             <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-                Selamat datang di portal ujian praktik. Sistem ini dipersiapkan untuk pengujian dan sertifikasi kompetensi pengembangan aplikasi dan perangkat lunak.
+                Selamat datang di aplikasi MyKasir. Sistemm ini dirancang sebagai mesin kasir.
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">

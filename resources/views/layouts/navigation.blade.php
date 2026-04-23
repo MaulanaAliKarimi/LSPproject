@@ -15,6 +15,24 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('selectitem')" :active="request()->routeIs('selectitem')">
+                        {{ __('Pilih Item') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('checkout')" :active="request()->routeIs('checkout')">
+                        {{ __('Lihat Keranjang') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('category')" :active="request()->routeIs('category')">
+                        {{ __('Kelola Category') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('item')" :active="request()->routeIs('item')">
+                        {{ __('Kelola Item') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transaction_detail')">
+                        {{ __('Detail Transaksi') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('transaction')" :active="request()->routeIs('transaction')">
+                        {{ __('Riwayat Transaksi') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -69,6 +87,18 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('category')" :active="request()->routeIs('category')">
+                {{ __('Category') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('item')" :active="request()->routeIs('item')">
+                {{ __('Item') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transactions_detail')">
+                {{ __('Detail Transaksi') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('transaction')" :active="request()->routeIs('transaction')">
+                {{ __('Transaksi') }}
             </x-responsive-nav-link>
         </div>
 
