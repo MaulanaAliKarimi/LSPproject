@@ -8,5 +8,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 #[Fillable(['name'])]
 class Categories extends Model
 {
-    Use Fillable;
+    public $timestamps = false;
+
+    protected $fillable = ['name'];
 }

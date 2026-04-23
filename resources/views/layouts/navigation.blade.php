@@ -27,9 +27,9 @@
                     <x-nav-link :href="route('item')" :active="request()->routeIs('item')">
                         {{ __('Kelola Item') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transaction_detail')">
+                    {{-- <x-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transaction_detail')">
                         {{ __('Detail Transaksi') }}
-                    </x-nav-link>
+                    </x-nav-link> --}}
                     <x-nav-link :href="route('transaction')" :active="request()->routeIs('transaction')">
                         {{ __('Riwayat Transaksi') }}
                     </x-nav-link>
@@ -94,11 +94,11 @@
             <x-responsive-nav-link :href="route('item')" :active="request()->routeIs('item')">
                 {{ __('Item') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transactions_detail')">
+            {{-- <x-responsive-nav-link :href="route('transaction_detail')" :active="request()->routeIs('transactions_detail')">
                 {{ __('Detail Transaksi') }}
-            </x-responsive-nav-link>
+            </x-responsive-nav-link> --}}
             <x-responsive-nav-link :href="route('transaction')" :active="request()->routeIs('transaction')">
-                {{ __('Transaksi') }}
+                {{ __('Riwayat Transaksi') }}
             </x-responsive-nav-link>
         </div>
 
